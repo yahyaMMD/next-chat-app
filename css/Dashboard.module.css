@@ -1,0 +1,65 @@
+.main_dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card_actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.main_cont {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container_posts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 20px;
+  width: 361px;
+}
+
+.pst {
+  background-color: #f2f2f2;
+  padding: 6px;
+  border-radius: 8px;
+}
+.flw {
+  background-color: #0084ff27;
+  padding: 6px;
+  border-radius: 8px;
+}
+.lis {
+  background-color: #ff10102d;
+  padding: 6px;
+  border-radius: 8px;
+}
+.cmt {
+  background-color: #ffaa002a;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

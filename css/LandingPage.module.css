@@ -1,0 +1,45 @@
+.blue_span {
+  color: var(--blue_color);
+}
+
+.landing_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button_div {
+  margin-right: 20px;
+}
+
+.landing_hero {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  gap: 1.2em;
+}
+
+.landing_buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.cards {
+  display: flex;
+  gap: 1.2em;
+  padding: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
